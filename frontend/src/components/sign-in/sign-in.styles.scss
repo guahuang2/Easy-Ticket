@@ -1,0 +1,149 @@
+.sign-in-container {
+    margin-top: 10%;
+    background-color: white;
+    margin: 0px 10px;
+    width: 25%;
+    border-radius: 20px;
+
+    
+
+    hr{
+      border: 1px dashed #000; width: 70%; margin: auto; margin-top: 5%; margin-bottom: 5%; 
+    }
+
+    h2{
+      color: black;
+        font-size: 27px;
+      text-align: center;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    .g-b{
+      margin-left: 35%;
+    }
+
+
+    .form-container {
+        //margin: 20px;
+        .input {
+            //display: block;
+            height: 35px;
+            margin: 10px 0px;
+            font-size: 16px;
+            width: 100%;
+            color: black;
+            //background-color: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: transparent;
+        }
+
+        .button {
+            margin-top: 15px;
+            margin-left:25%;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: black;
+            background-color: #E84A4F;
+            border: none;
+            position: relative;
+            border-radius: 2px;
+            
+            &:hover{
+                background-color: #E98074;
+                cursor: pointer;
+            }
+
+        }
+
+
+    }
+    @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      
+      display: flex;
+      font-weight: 400;
+      font-family: 'Fira Sans', sans-serif;
+    }
+
+    h1,h2,h3,h4,h5,h6,label,span {
+      font-weight: 500;
+      font-family: 'Fira Sans', sans-serif;
+    }
+
+    body, html, .App, #root, .auth-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .navbar-light {
+      background-color: black;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    }
+
+    .auth-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .auth-inner {
+      width: 450px;
+      margin: auto;
+      background: black;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+      padding: 40px 55px 45px 55px;
+      border-radius: 15px;
+      transition: all .3s;
+    }
+
+    .form-group{
+      width: 80%;
+      
+      margin: auto;
+    }
+
+    .auth-wrapper .form-control:focus {
+      border-color: #167bff;
+      box-shadow: none;
+
+    }
+
+    .auth-wrapper h3 {
+      text-align: center;
+      margin: 0;
+      line-height: 1;
+      padding-bottom: 20px;
+    }
+
+    .custom-checkbox{
+      margin-top: 10 px;
+    }
+    
+    .custom-control-label {
+      font-weight: 400;
+      color: black;
+      margin-top: 10px;
+    }
+
+    .forgot-password,
+    .forgot-password a {
+      text-align: center;
+      font-size: 13px;
+      padding-top: 10px;
+      color: #7f7d7d;
+      margin: 0;
+    }
+
+
+}
+
+

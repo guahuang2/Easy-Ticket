@@ -1,0 +1,38 @@
+.collection-details-container{
+    display: inline-flex;
+    padding: 30px;
+
+    .image-container{
+        width: 50%;
+        padding: 0px 10%;
+        margin: auto;
+    }
+
+    .content{
+        padding: 0px 30px;
+
+        h2{
+            font-size: 55px;
+        }
+
+        span{
+            color: #E84A4F;
+        }
+    }
+}
+
+.book-now{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #E84A4F;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.75s ease;
+
+    &:hover{
+        background-color: #E98074;
+    }
+}

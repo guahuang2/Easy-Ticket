@@ -1,0 +1,50 @@
+.collection-item{
+    display: inline-block;
+    margin: 2em;
+    height: 400px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+
+    .image-container {
+        height: 90%;
+        width: 100%;
+        opacity: 1.0;
+        &:hover .image{
+            opacity: 1.0;
+        }
+        z-index: 6;
+        .image {
+            height: 100%;
+            width: 100%;
+            opacity: 0.7;
+        }
+    }
+
+    .collection-footer {
+        
+        height: 10%;
+        width: 100%;
+        font-size: 15px;
+        margin: 8px 0px;
+        display: inline-block;
+        .title{      
+            display: block;
+            float: left;
+        }
+        .rating {
+            display: block;
+            float: right;
+        }
+        #thumb{
+            width: 30%;
+        }
+    }
+
+
+}
